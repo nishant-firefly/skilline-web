@@ -1,0 +1,17 @@
+/* HomePartnershipsLogos.css */
+
+.slick-slide {
+    padding: 0 10px; /* Add padding between slides */
+}
+
+.slick-list {
+    margin: 0 -10px; /* Remove extra margin from the container */
+}
+
+.slider-content {
+    background-color: white;
+    padding: 10px; /* Add padding around the content */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    height: 130px;
+}
