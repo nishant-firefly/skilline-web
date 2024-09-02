@@ -60,7 +60,7 @@ export const OurImpacts = () => {
             </GridBox> */}
                 <GridBox columns={2} gap={10} className='items-center md:space-y-0 space-y-3'>
                     <GridBox.GridItem columnMerge={1}>
-                        <Image src="/image/images/ai based learning platform.jpg" alt='Our Impact' title='Our Impact' width={883} height={910} className='rounded-xl md:h-[500px]  object-cover' />
+                        <Image src="/image/images/our_approach.jpg" alt='Our Impact' title='Our Impact' width={883} height={910} className='rounded-xl md:h-[500px]  object-cover' />
                     </GridBox.GridItem>
                     <GridBox.GridItem columnMerge={1} className='md:space-y-6 space-y-3'>
                         <Heading className='md:text-left'>Our Impact</Heading>
