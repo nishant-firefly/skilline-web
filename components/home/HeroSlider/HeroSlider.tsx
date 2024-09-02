@@ -7,8 +7,8 @@ export const HeroSlider = () => {
   const sliderData: SliderItemType[] = [
     {
       preTitle: "",
-      title: "Empowering India's Future",
-      description: `Skilline is revolutionizing Bharat's education landscape with an affordable, AI-driven platform.`,
+      title: "Shaping the Future of Education",
+      description: `On the path to transforming Bharat's education landscape with an innovative, interactive EdTech platform.`,
       image: {
         src: "/image/images/slider-5.jpg",
         width: 1015,
@@ -22,7 +22,7 @@ export const HeroSlider = () => {
       description: `Narrowing skill gaps, empowering rural youth, and advancing the objectives of 'Aatmanirbhar Bharat'.`,
 
       image: {
-        src: "/revision/slider_2.png",
+        src: "/image/images/slider-atma-nirbhar.jpg",
         width: 630,
         height: 456,
         alt: "",
@@ -31,9 +31,9 @@ export const HeroSlider = () => {
     {
       preTitle: "",
       title: "Industry-Ready Skills",
-      description: `Delivering 100% job-guaranteed training in technology, manufacturing, and high-demand sectors.`,
+      description: `Building 100% job-guaranteed training in technology, manufacturing, and high-demand sectors.`,
       image: {
-        src: "/image/images/Industry Ready skill.jpg",
+        src: "/image/images/industry-ready-skills.jpg",
         width: 1015,
         height: 735,
         alt: "",
@@ -41,8 +41,8 @@ export const HeroSlider = () => {
     },
     {
       preTitle: "",
-      title: "Empowering Individual Potential",
-      description: `Personalized learning to unleash individual growth and nationwide prosperity.`,
+      title: "Unleashing Individual Potential",
+      description: `Personalized learning powered by innovative technology to maximize personal growth and success`,
       image: {
         src: "/image/images/empowering-india-fututre.jpg",
         width: 1015,
