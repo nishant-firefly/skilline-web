@@ -23,7 +23,7 @@ const Page = () => {
                 Our Story
             </Breadcrumb>
             <GridBox columns={1} gap={10} className='container items-center py-12 '>
-            <Image src="/revision/our-story.png" alt='Our Story' title='Our Story' width={1578} height={890} />
+            <Image src="/revision/our-story.png" alt='Our Story' title='Our Story' width={1577} height={890} />
             </GridBox>
         </div>
     )
