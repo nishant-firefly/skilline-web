@@ -36,7 +36,7 @@ export const Breadcrumb = ({ data, children }: BreadcrumbType) => {
             );
           })}
         </div>
-        <Heading className="md:text-center md:pt-[20px] md:pb-[80px] pt-[1px] pb-[29px] text-pretty">
+        <Heading className="md:text-center md:pt-[0px] md:pb-[20px] pt-[1px] pb-[29px] text-pretty">
           {children}
         </Heading>
       </div>

@@ -10,9 +10,8 @@ export const Ventures = () => {
     {
       src: "/image/teams/nishant-saxena.jpg",
       name: "Nishant Saxena",
-      profession: "CEO- IT Consultant- Software Developer",
+      profession: "Entrepreneur & Tech Visionary",
       role: "CEO",
-      experence: "20+",
       social: [
         {
           icon: "linkedin",
@@ -24,9 +23,8 @@ export const Ventures = () => {
     {
       src: "/image/teams/hansi-malhotra.jpeg",
       name: "Hansi Malhotra ",
-      profession: "Advisory- Fintech- Entrepreneurship-Climate Professional",
+      profession: "Finance Expert & Thought Leader",
       role: "Advisor",
-      experence: "30+",
       social: [
         {
           icon: "linkedin",
@@ -38,10 +36,8 @@ export const Ventures = () => {
     {
       src: "/image/teams/monika-kulshreshtha.jpeg",
       name: "Monika Kulshreshtha",
-      profession:
-        "Serial Entrepreneur - IT Consultant - Growth Hacker - Mentor",
-      role: "Advisor",
-      experence: "20+",
+      profession: "Marketing Strategist & Brand Builder",
+      role: "Branding Head",
       social: [
         {
           icon: "linkedin",
@@ -51,25 +47,10 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/image/teams/neelam-pal.jpeg",
-      name: "Neelam Pal",
-      profession: "Automation and IT Consultant- Analytics-Quality Assurance",
-      role: "Advisor",
-      experence: "20+",
-      social: [
-        {
-          icon: "linkedin",
-          label: "Linkedin",
-          link: "https://www.linkedin.com/in/palneelam/",
-        },
-      ],
-    },
-    {
       src: "/image/teams/upal-roy.jpeg",
-      name: "Upal Roy ",
-      profession: "Gen AI Evangelist- Data Scientist-Strategy consultant",
+      name: "Upal Roy",
+      profession: "Business Innovator & GenAI Expert",
       role: "Advisor",
-      experence: "20+",
       social: [
         {
           icon: "linkedin",
@@ -79,11 +60,23 @@ export const Ventures = () => {
       ],
     },
     {
+      src: "/image/teams/raman-rajpal.jpeg",
+      name: "Raman Rajpal",
+      profession: "Technology & Transformation Leader",
+      role: "Advisor",
+      social: [
+        {
+          icon: "linkedin",
+          label: "Linkedin",
+          link: "https://www.linkedin.com/in/raman-rajpal-a8bb2458/",
+        },
+      ],
+    },
+    {
       src: "/image/teams/ashutosh-taiwal.jpeg",
       name: "Ashutosh Taiwal",
-      profession: "Tech Leader-Cloud Innovator-Digital Transformator",
-      role: "Core Team Member",
-      experence: "20+",
+      profession: "Technology Architect & Cloud Expert",
+      role: "Archiect",
       social: [
         {
           icon: "linkedin",
@@ -125,11 +118,10 @@ export const Ventures = () => {
         <div className="md:block hidden">
           <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-10 mt-3">
             {data.map((item: any, index: number) => {
-              const { experence, role, src, name, profession, social } = item;
+              const { experence, profession, role, src, name, social } = item;
               return (
                 <TeamCard
                   key={index}
-                  experence={experence}
                   role={role}
                   name={name}
                   profession={profession}
@@ -144,12 +136,11 @@ export const Ventures = () => {
         <div className="md:hidden relative overflow-hidden" ref={emblaRef}>
           <div className="embla__container flex gap-4">
             {data.map((item: any, index: number) => {
-              const { experence, role, src, name, profession, social } = item;
+              const { role, src, name, profession, social } = item;
               return (
                 <div className="embla__slide min-w-[100%]" key={index}>
                   <TeamCard
                     key={index}
-                    experence={experence}
                     role={role}
                     name={name}
                     profession={profession}

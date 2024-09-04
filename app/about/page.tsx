@@ -79,7 +79,7 @@ const AboutUs = () => {
           },
         ]}
       >
-        About
+        Greetings from Skilline!
       </Breadcrumb>
       <About />
       <SkillGap />

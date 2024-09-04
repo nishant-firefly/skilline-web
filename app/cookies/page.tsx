@@ -48,7 +48,7 @@ const Page = () => {
                     <p>If you have any questions about this Cookies Policy, please contact us at:</p>
                     <ul>
                         <li><strong>Email:</strong> <Link href="mailto:info@skilline.ai">info@skilline.ai</Link></li>
-                        <li><strong>Address:</strong>594, Road No. 34, Survey Of India Ayyappa Society, Chanda Naik Nagar, Madhapur, Hyderabad, Telangana 500081</li>
+                        <li><strong>Address:</strong> 594 India Ayyappa Society, Madhapur, Hyderabad</li>
                     </ul>
                 </Article>
             </div>

@@ -37,7 +37,7 @@ const ContactUs = () => {
                 icon="/images/map.png"
                 title="Address"
               >
-                594, Road No. 34, Survey Of India Ayyappa Society, Chanda Naik Nagar, Madhapur, Hyderabad, Telangana 500081
+                594 India Ayyappa Society, Madhapur, Hyderabad
               </IconBoxV2>
               {/* <IconBoxV2
                 className="py-6"

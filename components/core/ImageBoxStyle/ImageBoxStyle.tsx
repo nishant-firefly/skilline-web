@@ -44,6 +44,7 @@ export const ImageBoxStyle = ({data, imageAlign}: ImageTextProps) => {
               </Button>
             ) : (null)}
           </div>
+          
           <div className="relative xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
             <Image
               className={`shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] xl:w-[85%] lg:w-[85%] md:w-[85%] w-full relative float-right ${data.image.size}`}
@@ -53,6 +54,7 @@ export const ImageBoxStyle = ({data, imageAlign}: ImageTextProps) => {
               height={1000}
             />
           </div>
+          
         </div>
       ) : (
         <div className="container xl:flex lg:flex md:flex flex flex-wrap  items-center xl:bg-transparent lg:bg-transparent md:bg-[#F4F9FF] bg-[#F4F9FF]  xl:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] lg:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] md:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] pb-[50px] xl:pt-[20px] lg:pt-[20px] md:pt-[20px] pt-[50px] xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-5">
