@@ -79,34 +79,6 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/image/teams/raman-rajpal.jpeg",
-      name: "Raman Rajpal - Haryana ",
-      profession: " IT Consultant - Software Developer ",
-      role: "CEO",
-      experence: "15+",
-      social: [
-        {
-          icon: "linkedin",
-          label: "Linkedin",
-          link: "https://www.linkedin.com/in/raman-rajpal-a8bb2458/",
-        },
-      ],
-    },
-    {
-      src: "/image/teams/vijendra-paliwal.png",
-      name: "Vijendra Palliwal",
-      profession: "Researcher- Design Thinking- Entrepreneur",
-      role: "Core Team Member",
-      experence: "10+",
-      social: [
-        {
-          icon: "linkedin",
-          label: "Linkedin",
-          link: "#",
-        },
-      ],
-    },
-    {
       src: "/image/teams/ashutosh-taiwal.jpeg",
       name: "Ashutosh Taiwal",
       profession: "Tech Leader-Cloud Innovator-Digital Transformator",
@@ -151,7 +123,7 @@ export const Ventures = () => {
           {`Our team of professionals and advisors, with over 200 years of combined expertise, is dedicated to shaping India’s education future. With a shared vision and diverse backgrounds, we deliver exceptional outcomes and innovation for our learners.`}
         </Paragraph>
         <div className="md:block hidden">
-          <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-10 mt-3">
+          <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-10 mt-3">
             {data.map((item: any, index: number) => {
               const { experence, role, src, name, profession, social } = item;
               return (
