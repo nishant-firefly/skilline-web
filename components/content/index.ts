@@ -538,47 +538,37 @@ export const storiesData = [
     linkdin: "https://www.linkedin.com/in/dilip-vishwakarma-2115291ab/",
     content: [
       {
-        heading: "Early days in Indore ",
+        heading: "Early Career Challenges",
         description:
-          "In the company of Sonu Verma, Dilip started his technological journey. Both came from rather unremarkable backgrounds and had much to overcome, but they did so.",
+          "Dilip, despite having a degree and experience, found himself stuck in a basic HTML and CSS job. Without guidance on modern web technologies, his career lacked direction, and he struggled to grow in the competitive tech industry.",
       },
       {
-        heading: "Early career matches",
+        heading: "Joining Skilline",
         description:
-          "Dilip had to start with crude technology and limited resources, for which he worked long hours. Such adversity made him even more inclined to want for learning and self-development.",
+          "His turning point came when he joined Skilline, a program that provided him with the knowledge he needed. Skilline's training helped him master Tailwind CSS, which aligned with his strong aesthetic sense and passion for design, while also teaching him cutting-edge technologies like React and Next.js.",
       },
       {
-        heading: "The Game Changer",
+        heading: "Building Next-Level Products",
         description:
-          "Accepting his lifelong mandate towards continuous learning was the turning point where Dilip discovered Skilline. In his classes, he was exposed to modern technologies and frameworks which allowed him to dip his toes into more complex projects.",
+          "With his newly acquired skills, Dilip began working on major projects, including developing a next-level project management platform for Art of Living, one of the world’s largest NGOs. His work stands out in the industry, as he is now creating innovative solutions that manage 100s of projects, showcasing his competitive edge.",
       },
       {
-        heading: "Skilline helped him climb the ranks",
+        heading: "Outshining Experienced Professionals",
         description:
-          "Dilip transformed himself from working on outdated technology to being introduced to new tech and frameworks under the guidance of his determination.",
-      },
-      {
-        heading: "Industry-wide recognition ",
-        description:
-          "With unrelenting motive, Dilip had made the grade to construct innovative, large software program products and changed into recognized in the enterprise for his work.",
-      },
-      {
-        heading: "Dilip inspiring colleagues and peers",
-        description:
-          "Dilip's story of going from primitive technology to corporate big boss shows how perseverance trumps everything. Keep learning constantly; you can't be more than a few steps ahead in knowledge otherwise.",
+          "Dilip’s expertise, bolstered by the right training, work ethic, and attitude from Skilline, has made him more competitive than many seasoned professionals. He continues to shine, growing in both skill and recognition, and has already doubled his salary, on a path to becoming an excellent professional.",
       },
       {
         heading: "Conclusion",
         description:
-          "Dilip's story is living proof of the transformative career changes Skilline training can deliver and serves as a guideline for those tech enthusiasts that wish to pursue technology going ahead.",
-      },
-    ],
+          "Dilip’s story highlights how the right training and perseverance can lead to transformative success. His journey, from struggling with outdated tech to building advanced platforms for global organizations, serves as a powerful example for those seeking to grow in the tech industry.",
+      }
+    ]
   },
   {
     name: "Deepti Shukla",
-    city: "Hyderabad",
+    city: "Delhi",
     image: "/story/dipti-shukla.jpg",
-    story: `Transformed from an underconfident housewife to a confident Python developer.`,
+    story: `From Motherhood to Mastering DevOps`,
     link: {
       label: "Read more",
       url: "/stories/#deepti-shukla",
@@ -588,40 +578,25 @@ export const storiesData = [
     linkdin: "http://linkedin.com/in/deepti-shukla-8457b5264",
     content: [
       {
-        heading: "Born and Raised in a Lovely Place",
+        heading: "10 Years of Career Gap and Motherhood",
         description:
-          "Deepti's journey begins from one of the most dynamic cities, Hyderabad. She had been far from painting for the past 10 years to take care of her children, and felt that she was now not geared up or inadequately confident to get again right into a task. The years stretched on and she started out to doubt both her abilities and task prospects.",
+          "Deepti dedicated 10 years of her life to motherhood, which left her feeling uncertain about her identity and career prospects. She questioned her skills and wondered if she could ever get back into the professional world.",
       },
       {
-        heading: "A Crossroads",
+        heading: "Joining Skilline: A Turning Point",
         description:
-          "Met with the determination to reclaim her professional existence and revive an vintage passion for the era, Deepti sincerely refused to give up. This led her to Skill Line, a business enterprise for talents education and career advancement. Deepti commenced mastering with enrolled publications in Python development.",
+          "Determined to find her way, Deepti joined Skilline’s offline pilot project, designed to help individuals with diverse backgrounds restart their careers. Her case was particularly challenging, but her hard work and determination stood out, proving she was ready for a change.",
       },
       {
-        heading: "How Skill Line Pulls Her Out of Self-Doubt",
+        heading: "Becoming Confident DevOps & Python Developer",
         description:
-          "The complete-fledged training applications at Skill Line proved to be a cornerstone in reshaping the self belief of Deepti. Her initial self-doubt melted away through sensible revel in, top instructors, and a network of peers. Every new capacity she discovered added her one step in the direction of which she needed to be.",
+          "Through Skilline's comprehensive training, Deepti quickly acquired critical skills in DevOps, AWS, automation, Docker, GitHub, and more. Despite facing challenges that often test professionals with 5+ years of experience, she excelled in automating AWS services as well. Within just six months, Deepti transformed into a confident Python developer, proficient in web development and databases. Her contributions were significant, including her work on a low-code/no-code pipeline platform for VARNITECH, showcasing her remarkable growth and expertise.",
       },
       {
-        heading: "Deepti, a Python Developer",
+        heading: "Celebrating Deepti's Success: A Beacon of Hope and Transformation",
         description:
-          "Deepti is the example of the way one could develop into an expert Python developer with willpower and hard paintings. She additionally confirmed a honest quantity of expertise in coping with complex coding troubles and finding optimal solutions. The transformation of Deepti from underconfident to excelling in her field became strong evidence of resilience and backbone.",
-      },
-      {
-        heading: "Top of Her Game",
-        description:
-          "Deepti excelled in her area, putting top notch, Python-powered packages that were each progressive and green into production. Her work on projects was diagnosed and revered within the industry. Deepti's journey had sooner or later reached its very last degree, and she or he emerged as an assured, skillful Python developer.",
-      },
-      {
-        heading: "Deepti Inspiring Others ",
-        description:
-          "Deepti's adventure is a standing instance of ways grit and lifetime gaining knowledge can propel one to personal and expert growth. The story of her adventure will sound familiar to most ladies who have experienced a wreck in their careers and are actually looking at methods to re-input the workforce. Deepti has confirmed that it's far in no way too past due to move after your dream and prevail.",
-      },
-      {
-        heading: "Conclusion",
-        description:
-          "Deepti's adventure from being an under confident mom to a flourishing Python developer proves that schooling isn't just empowering, however can also exchange the notion of life. She observed the assistance and assets to resurrect her professional life in Skill Line's education programs. Through Deepti, we see that even though life takes place, career interruptions are simply transient avenue bumps and it's never too late to show things around. Her story can inspire all and sundry who have once taken a ruin of their careers or are starting paintings after taking breaks because of the pandemic!",
-      },
+          "We are incredibly proud of Deepti and her accomplishments, and her success exemplifies how Skilline’s programs are truly changing lives. Her journey stands as a beacon of hope for others looking to reclaim their careers and reach new heights.",
+      }
     ],
   },
 ];
