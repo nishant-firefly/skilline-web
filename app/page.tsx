@@ -30,6 +30,8 @@ export default function Home() {
       <div className="md:pt-8 pt-3">
       <Course />
       </div>
+            
+      <HomePartnershipsLogos />
       <div className="pt-[15px]">
       <GuidingPrinciple />
       </div>
@@ -40,8 +42,7 @@ export default function Home() {
       <div className="pt-10">
       <Stories />
       </div>
-      
-      <HomePartnershipsLogos />
+
       <Testimonial />
       <div className="md:pt-0 pt-10">
       <Blog />

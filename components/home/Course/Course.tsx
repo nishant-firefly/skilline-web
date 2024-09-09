@@ -29,7 +29,11 @@ export const Course = () => {
     const data: CourseItemtype[] = courseData as CourseItemtype[];
 
     return (
-        <div className="bg-[#F3F4F6] md:rounded-xl mb-5">
+        <>
+      
+        
+        <div className="bg-[#F3F4F6] md:rounded-xl pb-8">
+           
             <div className="container pt-5">
                 <div className="flex items-center flex-col md:flex-row md:gap-10 gap-3">
                     <div className="md:w-[50%] w-full">
@@ -140,5 +144,7 @@ export const Course = () => {
                 </div>
             </div>
         </div>
+        
+        </>
     );
 };

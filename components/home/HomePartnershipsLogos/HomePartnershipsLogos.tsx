@@ -112,7 +112,8 @@ export const HomePartnershipsLogos = () => {
     };
 
     return (
-        <div className='bg-[#F3F4F6] mb-10'>
+        <div className='bg-[#F3F4F6] mb-10 border-t-black border-t border-solid'>
+               <span className=""></span>
             <div className='partnershiplogos container text-center pt-[10px] pb-[50px] space-y-10'>
                 <Heading className='text-center md:leading-[0px]'>{data.heading}</Heading>
 

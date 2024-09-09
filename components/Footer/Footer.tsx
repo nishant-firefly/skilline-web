@@ -62,7 +62,7 @@ export const Footer = () => {
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
           <Link href="/">
-          <Image src="/images/skilline-logo.png" className="xl:w-[20%] lg:w-[20%] md:w-[20%] w-[50%] m-auto" alt="" width={1496} height={512} />
+          <Image src="/images/skilline.png" className="xl:w-[20%] lg:w-[20%] md:w-[20%] w-[50%] m-auto" alt="" width={1496} height={512} />
           </Link>
           <div className="flex flex-wrap justify-center mt-6 -mx-4">
             {footerMenu.map((item, index) => {

@@ -43,7 +43,7 @@ export const Header = () => {
         <div className="container">
           <div className="flex justify-between items-center lg:py-5 py-5">
             <div className="xl:w-[25%] lg:w-[25%] md:w-[25%] w-full">
-                <Link href={"/"}><Image src="/images/skilline-logo.png" className="w-[80%]" alt="" width={1473} height={227} /></Link>
+                <Link href={"/"}><Image src="/images/skilline.png" className="w-[80%]" alt="" width={1473} height={227} /></Link>
             </div>
             <div className="flex lg:gap-5 items-center">
               <div className="hidden lg:flex gap-10 mr-3 items-center">

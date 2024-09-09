@@ -21,15 +21,15 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/image/teams/hansi-malhotra.jpeg",
-      name: "Hansi Malhotra ",
-      profession: "Finance Expert & Thought Leader",
-      role: "Advisor",
+      src: "/image/teams/vijendra-paliwal.png",
+      name: "Vijendra Palliwal",
+      profession: "Researcher | Designer | Entrepreneur",
+      role: "Team Member",
       social: [
         {
           icon: "linkedin",
           label: "Linkedin",
-          link: "https://www.linkedin.com/in/hansimehrotra/",
+          link: "#",
         },
       ],
     },
