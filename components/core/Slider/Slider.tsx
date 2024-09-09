@@ -46,7 +46,8 @@ export const Slider = ({ data }: SliderType) => {
     setPlugin([
       ...plugin,
       Autoplay({
-        delay: 5000,
+        delay: 1000,
+        stopOnInteraction: false
       }),
     ]);
   }, []);

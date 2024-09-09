@@ -26,26 +26,20 @@ export default function Home() {
       <div className="">
       <OurImpacts />
       </div>
-
+      <div className="pt-[15px]">
+      <GuidingPrinciple />
+      </div>
       <div className="md:pt-8 pt-3">
       <Course />
       </div>
             
       <HomePartnershipsLogos />
-      <div className="pt-[15px]">
-      <GuidingPrinciple />
-      </div>
-     
-      <div className="pt-[30px]">
-      <Ventures />
-      </div>
+      <Testimonial />
       <div className="pt-10">
       <Stories />
       </div>
-
-      <Testimonial />
-      <div className="md:pt-0 pt-10">
-      <Blog />
+      <div className="pt-[30px]">
+      <Ventures />
       </div>
       <div className="xl:hidden lg:hidden md:hidden block">
       <OurRoadmap />
@@ -53,6 +47,16 @@ export default function Home() {
       <div className="xl:block lg:block md:block hidden">
     <RoadMap />
     </div>
+
+     
+
+
+
+      
+      <div className="md:pt-0 pt-10">
+      <Blog />
+      </div>
+
       <HomeContactUs />
       <JoinUs />
       
