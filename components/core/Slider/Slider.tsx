@@ -40,17 +40,7 @@ export const Slider = ({ data }: SliderType) => {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
-  const [plugin, setPlugin] = useState<any>([]);
 
-  useEffect(() => {
-    setPlugin([
-      ...plugin,
-      Autoplay({
-        delay: 1000,
-        stopOnInteraction: false
-      }),
-    ]);
-  }, []);
 
   React.useEffect(() => {
     if (!api) {
@@ -74,7 +64,13 @@ export const Slider = ({ data }: SliderType) => {
 
   return (
     <div className="w-full inline-block">
-      <Carousel setApi={setApi} plugins={plugin} opts={OPTIONS}>
+      <Carousel  opts={OPTIONS} setApi={setApi}
+                           
+                            plugins={[
+                                Autoplay({
+                                    delay: 2000,
+                                }),
+                            ]}>
         <CarouselContent>
           {data.map((item: SliderItemType, index: number) => {
             const { preTitle, title, description, button, image } = item;
